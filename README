@@ -1,0 +1,29 @@
+Remote Administration Tool written by iVision (Joël) Project contains:
+ - Stub: Client who connects with the server, also known as 'Slave/Target'
+ written in C++ Compiled with Visual C++ 6.0
+ - Controller: Server controlls the client. Written in C# Targets .NET4.5
+ (Requires .NET4.5 installed on the machine to run)
+
+Project Features:
+ - Remote desktop (50%) <-- Desktop2 is version in progress
+ - Remote explorer (60%) <-- Browsing works 90%, File sending 30%
+
+To doo:
+ - Clean up the project (The packets are just awful named :P)
+ - Complete Desktop, Explorer
+ - Monitoring (CPU, GPU)
+ - System Info
+ - Reverse SOCKS4/5
+ - Controller UI -> WPF
+ - Computer control (Shutdown, Sleep, Start Program, etc..)
+ - Small other things
+
+Known Bugs:
+ - Resize DesktopForm Crashes <-- Don't bother to fix, Controller UI will be writting in WPF
+ - Sending Files doesn't work (semi-implemented, worked on it 5 minutes or so)
+ - Receiving Files saves to the appdata (feature is disabled I think)
+
+
+Selling and/or redistribution is not allowed without any rights. I'm not in any way responsible
+how this product is used and I don't claim it works in the first place. I have the rights to
+stop/discontinue the product at any time. Terms may change at any time without any notice.
