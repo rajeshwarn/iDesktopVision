@@ -22,8 +22,3 @@ Known Bugs:
  - Resize DesktopForm Crashes <-- Don't bother to fix, Controller UI will be writting in WPF
  - Sending Files doesn't work (semi-implemented, worked on it 5 minutes or so)
  - Receiving Files saves to the appdata (feature is disabled I think)
-
-
-Selling and/or redistribution is not allowed without any rights. I'm not in any way responsible
-how this product is used and I don't claim it works in the first place. I have the rights to
-stop/discontinue the product at any time. Terms may change at any time without any notice.
